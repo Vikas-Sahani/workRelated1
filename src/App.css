@@ -1,4 +1,53 @@
-.App {
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+th {
+  background-color: rgb(174, 249, 224);
+  width: 150px;
+}
+
+tr:hover {
+  background-color: #D6EEEE;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2ffc7;
+}
+
+input {
+  width: 40px;
+}
+
+.amt_att {
+  flex-direction: row;
+}
+
+.amt_att input {
+  background-color: rgb(255, 255, 255);
+  width: 35px;
+  height: 15px;
+  border: 1px solid rgb(200, 191, 191);
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -22,13 +71,12 @@
 }
 
 .name {
-  /* width: 70px; */
   padding: 0px 2px;
   border: 2px solid greenyellow;
+  font-size: medium;
 }
 
 .tr .td {
-  /* border: blue solid 1px; */
   height: 50px;
 }
 
@@ -50,6 +98,15 @@
   height: 25px;
 }
 
+.totalAttendance,
+.amt,
+.moneyTaken,
+.RemAmt {
+  border: 2px solid green;
+  height: 50px;
+  width: 100px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -64,4 +121,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
