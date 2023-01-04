@@ -1,6 +1,21 @@
-h1 {
+.owner,
+h2 {
   display: flex;
   justify-content: center;
+}
+
+.owner {
+  position: relative;
+  left: 35%;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 60px;
+}
+
+.owner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
 }
 
 table {
@@ -37,88 +52,8 @@ input {
 }
 
 .amt_att input {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(192, 170, 170);
   width: 35px;
   height: 15px;
   border: 1px solid rgb(200, 191, 191);
 }
-
-
-
-
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.table {
-  display: flex;
-  flex-direction: row;
-  border: 1px dotted gray;
-}
-
-.tr {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid black;
-}
-
-.name {
-  padding: 0px 2px;
-  border: 2px solid greenyellow;
-  font-size: medium;
-}
-
-.tr .td {
-  height: 50px;
-}
-
-.empDetail {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid goldenrod;
-}
-
-.box {
-  border: 2px solid blue;
-  height: 25px;
-}
-
-.box-text {
-  width: 20px;
-  height: 25px;
-}
-
-.totalAttendance,
-.amt,
-.moneyTaken,
-.RemAmt {
-  border: 2px solid green;
-  height: 50px;
-  width: 100px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
